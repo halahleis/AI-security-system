@@ -1,6 +1,6 @@
 # Raspberry Pi AI Security System
 
-This project consists of an AI-powered real-time security system using YOLOv5 and YAMNet on Raspberry Pi 5, capable of:
+This project consists of an AI-powered real-time security system using YOLOv8 and YAMNet on Raspberry Pi 5, capable of:
 
 - Detecting **guns and knives** using a custom-trained YOLOv8 model
 - Detecting **suspicious sounds** (screaming, crying, gunshot, etc.) using Google's YAMNet model
@@ -172,7 +172,7 @@ email_sent_flags = {
 | Scream Detection          | 🎥 [Watch](media/scream_detection.mp4) |
 | Fun Demo                  | 🎥 [Watch](media/funny_demo.mp4) |
 
-I particularly hope you enjoy the last demo as much as I did making it! 😊
+I especially hope you enjoy watching the last demo as much as I enjoyed making it! 😊
 
 ---
 
