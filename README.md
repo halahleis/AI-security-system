@@ -40,6 +40,7 @@ AI-powered real-time security system using YOLOv5 and YAMNet on Raspberry Pi 5, 
 
 ## 📁 Project Structure
 
+```text
 AI-security-system/
 ├── yolov8_image_classification/
 │ ├── image_detect.py
@@ -65,11 +66,7 @@ AI-security-system/
 ├── .env.example
 ├── requirements.txt
 └── README.md
-
-yaml
-Copy
-Edit
-
+```
 ---
 
 ## 🚀 Installation
@@ -79,32 +76,31 @@ Edit
 ```bash
 git clone https://github.com/your-username/AI-security-system.git
 cd AI-security-system
-Create and activate a virtual environment
+```
 
-bash
-Copy
-Edit
+2. **Create and activate a virtual environment**
+```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies
+```
 
-bash
-Copy
-Edit
+3. **Install dependencies**
+```bash
 pip install -r requirements.txt
-🔐 Environment Variables
-Create a .env file in the root of your project with:
+```
+---
 
-env
-Copy
-Edit
+## 🔐 Environment Variables
+Create a .env file in the root of your project with:
+```env
 GMAIL_USER=your_email@gmail.com
 GMAIL_APP_PASSWORD=your_app_password
-⚠️ This should never be committed to GitHub. It's already included in .gitignore.
-
+```
 To get an app password: How to create a Gmail App Password
 
-🧪 Running the System
+---
+
+## 🧪 Running the System
 🎯 Weapon Detection via Camera (YOLOv8)
 bash
 Copy
