@@ -83,7 +83,7 @@ def log_event(event_type):
 email_sent_flags = {
     "crying, sobbing": False,
     "screaming": False,
-    "shouting": False,
+    "shout": False,
     "gunshot": False,
     "explosion": False
 }
@@ -111,8 +111,8 @@ try:
         plt.pause(0.01)
 
         # Detection Logic
-        suspicious_keywords = ["crying, sobbing", "screaming", "shouting", "gunshot", "explosion"]
-        threshold = 0.1
+        suspicious_keywords = ["crying, sobbing", "screaming", "shout", "gunshot", "explosion"]
+        threshold = 0.3
         detected_something = False
 
         for label, score in zip(top5_labels, top5_scores):
